@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #222;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    border: 2px solid cornflowerblue;
+    height: 500px;
+    background: linear-gradient(360deg, #00feba, #5b548a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 450px;
+    height: 40rem;
+    border-radius: 3rem;
+    box-shadow: 1px 1px 10px 5px lightseagreen;
+}
+
+.searchbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid yellow;
+    gap: 20px;
+    width: 80%;
+    position: relative;
+    bottom: 50px;
+    border: none;   
+}
+
+.searchbar input{
+    height: 40px;
+    width: 350px;
+    padding: 5px;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 20px;
+}
+
+.searchbar button img{
+    height: 20px;
+    width: 20px; 
+    cursor: pointer;     
+}
+
+.searchbar button{
+    height: 50px;
+    width: 60px;
+    padding: 10px;
+    object-fit: cover;
+    border: 2px solid red;
+    border-radius: 2rem;
+    border: none;
+    cursor: pointer;
+}
+
+.weather{
+    border: 2px solid  red;
+    margin-top: 10px;
+    width: 150px;
+    border: none;
+}
+
+.weather img{
+    height: 100px;
+    width: 100px;   
+    position: relative;
+    left: 25px;
+}
+
+.tempreture{
+    border: 2px solid yellow;
+    margin-top: 50px;
+    color: white;
+    height: 100px;
+    width: 150px;
+    text-align: center;
+    border: none;
+}
+
+#temp{
+    font-size: 3rem;
+}
+
+#city{
+    position: relative;
+    top: 10px;
+    font-size: 1.5rem;
+}
+
+.details{
+    border: 2px solid  red;   
+    width: 400px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    margin-top: 60px;
+    border: none;
+}
+
+.humidity{
+    border: 2px solid yellow;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 70px;
+    width: 150px;
+    border: none;
+}
+
+.humidity img{
+    /* background-color: white; */
+    height: 40px;
+    width: 50px;   
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.col{
+    position: relative;
+    left: 25px;
+    top: 10px;
+}
+
+#percent{
+    font-size: 1.7rem;
+}
+
+.wind{
+    border: 2px solid yellow;
+    color: white;
+    display: flex;
+    text-align: center;
+    height: 70px;
+    width: 220px;
+    border: none;  
+}
+
+.wind img{
+    /* background-color: white; */
+    height: 40px;
+    width: 60px;   
+    position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+#percent1{
+    font-size: 1.7rem;
+}
